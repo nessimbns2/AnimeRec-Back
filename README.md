@@ -103,13 +103,8 @@ uvicorn main:app --reload
 
 ### AnimeService
 
-- **repeat_anime_name**: Repeats an anime name a specified number of times
 - **get_anime_info**: Mock function to get anime information
 - **recommend_anime**: Recommends similar anime based on input anime names
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -119,4 +114,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries, please contact [yourname@example.com](mailto:yourname@example.com).
+For any inquiries, please contact [nessimbns2@gmail.com](mailto:nessimbns2@gmail.com).
