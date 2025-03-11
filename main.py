@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers import user, auth, anime
+from database import engine, Base
+
+# Create the database tables
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
@@ -19,4 +23,4 @@ app.include_router(anime.router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Anime Recommendation API"}
+    return {"message": "Welcome to the Anime Recommendation System!"}

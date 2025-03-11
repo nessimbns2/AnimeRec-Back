@@ -20,6 +20,7 @@ database.py
 insert_data.py
 main.py
 models.py
+README.md
 requirements.txt
 schemas.py
 test.db
@@ -66,7 +67,15 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-4. Run the FastAPI application:
+4. Create a `.env` file in the root directory and add your PostgreSQL database URL:
+
+```
+DATABASE_URL=postgresql://<username>:<password>@<host>/<database>?sslmode=require
+```
+
+Replace `<username>`, `<password>`, `<host>`, and `<database>` with your PostgreSQL credentials.
+
+5. Run the FastAPI application:
 
 ```bash
 uvicorn main:app --reload
@@ -98,6 +107,9 @@ uvicorn main:app --reload
 - **get_anime_info**: Mock function to get anime information
 - **recommend_anime**: Recommends similar anime based on input anime names
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -107,4 +119,4 @@ uvicorn main:app --reload
 
 ## Contact
 
-For any inquiries, please contact [nessimbns2@gmail.com](mailto:yourname@example.com).
+For any inquiries, please contact [yourname@example.com](mailto:yourname@example.com).
