@@ -110,4 +110,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries, please contact [yourname@example.com](mailto:yourname@example.com).
+For any inquiries, please contact [nessimbns2@gmail.com](mailto:yourname@example.com).
