@@ -98,9 +98,6 @@ uvicorn main:app --reload
 - **get_anime_info**: Mock function to get anime information
 - **recommend_anime**: Recommends similar anime based on input anime names
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
