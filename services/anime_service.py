@@ -53,7 +53,7 @@ class AnimeService:
         #      - anime_similarity.csv
         
         file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 
-                     'Model', 'anime_similarity.csv')
+                     'Anime-Recommandation-System', 'anime_similarity.csv')
         
         # Load similarity matrix
         try:
