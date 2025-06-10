@@ -46,6 +46,13 @@ services/
 ```
 
 ## Installation
+## Documentation
+
+Once the FastAPI server is running, you can access the interactive API documentation at:
+
+- Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+## Installation
 
 1. Clone the repository:
 
@@ -80,8 +87,6 @@ Replace `<username>`, `<password>`, `<host>`, and `<database>` with your Postgre
 ```bash
 uvicorn main:app --reload
 ```
-
-## API Endpoints
 
 ### User Endpoints
 
